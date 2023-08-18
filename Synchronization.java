@@ -12,7 +12,7 @@ class Printer {
 class Person implements Runnable {
 
     String name;
-    final Printer printer;
+    Printer printer;
     int pages;
     Thread t;
 
